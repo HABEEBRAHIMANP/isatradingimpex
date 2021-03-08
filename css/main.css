@@ -62,7 +62,10 @@ a:hover {
 	text-decoration: none;
 	color: #57b846;
 }
-
+/* desktop none */
+.dtop{
+  display: none;
+}
 /*---------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
@@ -378,6 +381,9 @@ textarea.input100 {
 
   .contact100-pic {
     display: none;
+  }
+  .dtop{
+    display: contents;
   }
 
   .contact100-form {

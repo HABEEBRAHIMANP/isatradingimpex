@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Seven24 Daily Day Book</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+<!--===============================================================================================-->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-contact100" style="background-color: rgb(61, 212, 16);">
+			<div class="wrap-contact100">
+				<div class="contact100-pic js-tilt" data-tilt>
+					<img src="images/img-03.png" alt="IMG">
+					<div style="margin-top: .5cm; text-align: center;">
+						<p>	For any other corrections wrong entry contact. +91 9496024345 <br> or <br> <a href="tel:+919496024345">Click Here</a></p>
+							</div>
+				</div>
+				
+
+				<form id="submit-form" class="contact100-form validate-form">
+					<span class="contact100-form-title">
+						Seven24 Daily Day Book
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Date is required">
+						<input class="input100" type="date" name="DATE">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-calendar" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+
+					<div class="wrap-input100 validate-input" data-validate = "Open balance is required">
+						<input class="input100" type="number" name="OPENING BALANCE" placeholder="OPENING BALANCE">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Total sales is required">
+						<input class="input100" type="number" name="TOTAL SALES" placeholder="TOTAL SALES">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Direct expenses is required">
+						<input class="input100" type="number" name="DIRECT EXPENSES" placeholder="DIRECT EXPENSES">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Indirect expenses is required">
+						<input class="input100" type="number" name="INDIRECT EXPENSES" placeholder="INDIRECT EXPENSES">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Online payment is required">
+						<input class="input100" type="number" name="ONLINE PAYMENT" placeholder="ONLINE PAYMENT">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Cash is required">
+						<input class="input100" type="number" name="CASH" placeholder="CASH">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate = "Credit is required">
+						<input class="input100" type="number" name="CREDIT" placeholder="CREDIT">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100 validate-input" data-validate = "Closing balance is required">
+						<input class="input100" type="number" name="CLOSING BALANCE" placeholder="CLOSING BALANCE">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-rupee" aria-hidden="true"></i>
+						</span>
+					</div>
+					<div class="wrap-input100" >
+						<input class="input100" type="text" name="REMARKS" placeholder="REMARKS">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<!-- <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div> -->
+
+					<!-- <div class="wrap-input100 validate-input" data-validate = "Message is required">
+						<textarea class="input100" name="message" placeholder="Message"></textarea>
+						<span class="focus-input100"></span>
+					</div> -->
+
+					<div class="container-contact100-form-btn">
+						<!-- <button class="contact100-form-btn">
+							Send
+						</button> -->
+
+						<button style=" background-color: rgb(22, 219, 22)" class="contact100-form-btn  loading buttonload" id="load" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Loading...">
+							Submit
+						</button>
+					</div>
+				</form>
+				<div class="dtop" style="text-align: center;">
+			<p style="margin-top: 35px;">	For any other corrections wrong entry contact. +91 9496024345 <br> or <br> <a href="tel:+919496024345">Click Here</a></p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+<!--===============================================================================================-->
+	<!-- <script src="vendor/jquery/jquery-3.2.1.min.js"></script> -->
+<!--===============================================================================================-->
+	<!-- <script src="vendor/bootstrap/js/popper.js"></script> -->
+	<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+<!--===============================================================================================-->
+	<!-- <script src="vendor/select2/select2.min.js"></script> -->
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<script src="./js/loader.js"></script>
+
+	<!-- gform ajax -->
+	<script>
+		$("#submit-form").submit((e)=>{
+			e.preventDefault()
+			$.ajax({
+				url:"https://script.google.com/macros/s/AKfycby9wrGWj8W2fck0VfUn-yWjo4YCnk-VdSoklVWo/exec",
+				data:$("#submit-form").serialize(),
+				method:"post",
+				success:function (response){
+					alert("Your daily expenses has been submitted successfully, Thank you")
+					window.location.reload()
+					//window.location.href="https://google.com"
+				},
+				error:function (err){
+					alert("Something Error")
+	
+				}
+			})
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
